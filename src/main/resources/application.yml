@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: simple-rest-service
+logging:
+  level:
+    org.mersen: DEBUG
+
+server:
+  port: ${_PORT:7777}
