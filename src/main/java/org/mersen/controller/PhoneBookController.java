@@ -29,7 +29,7 @@ public class PhoneBookController {
     }
     @PostMapping("/new")
     public void addnewPhoneRecord(@RequestBody PhoneRecord phoneRecord){
-        logger.debug("A new Phone record reqeust is received {}", phoneRecord);
+        logger.debug("A new Phone record reqeust is received for development branch {}", phoneRecord);
         phoneBookService.addNewPhoneRecord(phoneRecord);
     }
 
